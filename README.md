@@ -1,6 +1,6 @@
 # Elevate-Labs-Task4
 
-Task 4 : Setup and Use a Firewall on Windows/Linux
+**Task 4 : Setup and Use a Firewall on Windows/Linux**
 
 1. Opened firewall configuration tool (**Windows Firewall**).
 2. Listed down the current firewall rules (**inbound and outbound**).
@@ -20,10 +20,12 @@ telnet <ip address> 23
 
 **7. Documented commands or GUI steps used.**
 _GUI steps used:-_
+
 Windows Defender Firewall with Advanced Security> Inbound Rules> New Rule…> Rule Type> Protocol and Ports (Port selection eg. 23) > Action (Block the Connection)> Profile (Domain/ Private/ Public) > Name> 
 
 _Commands used-_
- Used command- telnet <ip address> 23 to check if port is working or not.
+
+ telnet <ip address> 23 to check if port is working or not.
 If it is working then shows blank, otherwise shows NotFound.
 
 **8. Summarize how firewall filters traffic.**
