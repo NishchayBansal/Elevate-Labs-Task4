@@ -5,13 +5,16 @@ Task 4 : Setup and Use a Firewall on Windows/Linux
 1. Opened firewall configuration tool (**Windows Firewall**).
 2. Listed down the current firewall rules (**inbound and outbound**).
 3. Added a rule to **block inbound traffic** on a **specific port** (e.g., 23 for Telnet).
+   
 ![image](https://github.com/user-attachments/assets/4942caa3-4770-459d-a34d-c0b85fcbb7f3)
 
 **4. Tested the rule by attempting to connect to that port locally or remotely.**
- ![image](https://github.com/user-attachments/assets/2913758c-b31b-40d3-b0fd-4c9735378fe8)
+telnet <ip address> 23
+ ![image](https://github.com/user-attachments/assets/4f8a8da0-542a-437e-a716-eb0e3e4a788b)
 
 **5. Add rule to allow SSH (port 22) if on Linux. N/A
 6. Removed the test block rule to restore original state.**
+
 ![image](https://github.com/user-attachments/assets/f45da8a7-238a-49d0-aca8-4966b1301dfc)
 
 **7. Documented commands or GUI steps used.**
