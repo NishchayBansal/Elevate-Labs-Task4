@@ -9,12 +9,13 @@
 ![image](https://github.com/user-attachments/assets/4942caa3-4770-459d-a34d-c0b85fcbb7f3)
 
 **4. Tested the rule by attempting to connect to that port locally or remotely.**
-telnet <ip address> 23
+telnet ..ip address.. 23
 
  ![image](https://github.com/user-attachments/assets/4f8a8da0-542a-437e-a716-eb0e3e4a788b)
 
-**5. Add rule to allow SSH (port 22) if on Linux. N/A
-6. Removed the test block rule to restore original state.**
+**5. Add rule to allow SSH (port 22) if on Linux. N/A**
+
+**6. Removed the test block rule to restore original state.**
 
 ![image](https://github.com/user-attachments/assets/f45da8a7-238a-49d0-aca8-4966b1301dfc)
 
@@ -25,7 +26,7 @@ Windows Defender Firewall with Advanced Security> Inbound Rules> New Rule…> Ru
 
 _Commands used-_
 
- telnet <ip address> 23 to check if port is working or not.
+ telnet ..ip address.. 23 to check if port is working or not.
 If it is working then shows blank, otherwise shows NotFound.
 
 **8. Summarize how firewall filters traffic.**
