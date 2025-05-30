@@ -10,6 +10,7 @@ Task 4 : Setup and Use a Firewall on Windows/Linux
 
 **4. Tested the rule by attempting to connect to that port locally or remotely.**
 telnet <ip address> 23
+
  ![image](https://github.com/user-attachments/assets/4f8a8da0-542a-437e-a716-eb0e3e4a788b)
 
 **5. Add rule to allow SSH (port 22) if on Linux. N/A
@@ -26,6 +27,7 @@ _Commands used-_
 If it is working then shows blank, otherwise shows NotFound.
 
 **8. Summarize how firewall filters traffic.**
+
 It examines the data packets and compares them against predefined security rules.
 
 There are various security rules such as:
